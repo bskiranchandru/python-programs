@@ -1,0 +1,17 @@
+s=int(input())
+d1=s//86400
+s=s%86400
+h=s//(3600)
+s=s%(3600)
+m=s//60
+s=s%60
+s=s
+print(d1,h,m,s)
+#next
+d=int(input())
+y=d//(365)
+d=d%(365)
+m=d//7
+d=d%7
+d=d
+print(y,m,d)

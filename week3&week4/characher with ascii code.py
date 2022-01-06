@@ -1,0 +1,5 @@
+a=input()
+b=input()
+c=input()
+d=input()
+print('a',ord(a),'b',ord(b),'c',ord(c),'d',ord(d))
